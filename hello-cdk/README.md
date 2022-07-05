@@ -1,13 +1,10 @@
 
-# RoomCheckr Room Capacity Monitoring
-
+# Team 9 Capacity checker 
 
 Initial Requirements:
-1. Clone the repository $ git clone https://github.com/matthewrutter/RoomCheckr.gitterm-project--team-9.git
+1. Clone the repository $ git clone https://github.com/swen-514-614-spring2021/term-project--team-9.git
 2. Have AWS CLI and .aws/Credentials Set Up
-3. Python verison 3.0+ installed https://www.python.org/downloads/
-
-
+3. Python installed https://www.python.org/downloads/
 
 Project Set Up:
 
@@ -37,7 +34,7 @@ $ source .venv/bin/activate
 To manually create a virtualenv on Windows:
 
 ```
-$ python -m venv .venv
+$ python -m venv .\hello-cdk
 ```
 If you are a Windows platform, you would activate the virtualenv like this:
 
@@ -81,12 +78,3 @@ To access the frontend front go the link outputted after the cdk deploy is finis
 ```
 $ i.e. HelloCdkStack.frontend = https://main.d2g78g2grhl4ny.amplifyapp.com
 ```
-
-#Shutting Everything down
-
-```
-$ cdk destroy
-```
-
-#Notes
-Sometime the S3 does not like the file name, so you will need to cdk destroy and deploy again 
